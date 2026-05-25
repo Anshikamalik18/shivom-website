@@ -1,36 +1,127 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Shivom MBA College Website
+
+A modern, professional Next.js website for Shivom MBA College featuring comprehensive information about programs, facilities, admissions, and research activities.
+
+## Features
+
+### Navigation Structure
+- **Home** - Dynamic homepage with hero section and key highlights
+- **About Us** - College leadership pages
+  - Chairman's Message
+  - Director's Message
+  - Principal's Message
+- **Courses** - Academic programs
+  - BBA (Bachelor of Business Administration)
+  - MBA (Master of Business Administration)
+  - BCA (Bachelor of Computer Applications)
+- **Admission** - Admission information
+  - Key Dates and Timeline
+  - Prospectus and Documents
+- **Facilities** - College infrastructure
+  - Library
+  - Hostel
+  - Computer Lab
+  - Communication Lab
+- **Mandatory Disclosure** - Regulatory compliance
+  - Affiliation Letter
+  - AICTE Approval
+  - University Recognition
+- **Research** - Academic research initiatives
+  - Conferences
+  - Seminars
+  - Invited Lectures
+- **Contact Us** - Contact information and inquiry form
+
+## Technology Stack
+
+- **Framework**: Next.js 16.2.6
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+```bash
+cd shivom-website
+npm install
+```
+
+### Running the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── layout.tsx              # Root layout
+│   ├── page.tsx                # Homepage
+│   ├── about/                  # About pages
+│   ├── courses/                # Course pages
+│   ├── admission/              # Admission pages
+│   ├── facilities/             # Facilities pages
+│   ├── disclosure/             # Compliance pages
+│   ├── research/               # Research pages
+│   └── contact/                # Contact page
+└── components/
+    ├── Navbar.tsx              # Navigation
+    └── Footer.tsx              # Footer
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Key Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- ✅ Fully responsive design
+- ✅ Professional UI with Tailwind CSS
+- ✅ Mobile-friendly navigation
+- ✅ Fast performance with Next.js optimization
+- ✅ TypeScript for type safety
+- ✅ SEO-friendly structure
+- ✅ Accessible markup
 
-## Deploy on Vercel
+## Customization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To update college information:
+1. Edit `src/components/Navbar.tsx` - Navigation links
+2. Edit `src/components/Footer.tsx` - Contact information
+3. Edit individual page files - Content and details
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+Deploy to Vercel (recommended):
+1. Push to GitHub
+2. Connect repository to Vercel
+3. Deploy
+
+Or deploy to AWS, Azure, Google Cloud with Node.js support.
+
+## Support
+
+For questions or support:
+- Email: info@shivomcollege.in
+- Phone: +91 XXXXXXXXXX
+
+## License
+
+Proprietary to Shivom MBA College. All rights reserved.
+
+---
+
+Built with Next.js, TypeScript, and Tailwind CSS
