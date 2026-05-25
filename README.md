@@ -112,6 +112,16 @@ Deploy to Vercel (recommended):
 
 Or deploy to AWS, Azure, Google Cloud with Node.js support.
 
+### Vercel Setup
+
+This project is already configured for Vercel deployment with a `vercel.json` file. Vercel will detect the Next.js app automatically and run the `npm run build` command.
+
+If you want to deploy manually:
+1. Sign in to Vercel and import the GitHub repository.
+2. Choose the `main` branch.
+3. Set the root directory to `/`.
+4. Click Deploy.
+
 ## Support
 
 For questions or support:
